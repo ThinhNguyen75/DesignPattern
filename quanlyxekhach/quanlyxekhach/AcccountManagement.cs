@@ -1,4 +1,5 @@
-﻿using System;
+﻿using quanlyxekhach.StrateryPattern;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
@@ -27,8 +28,14 @@ namespace quanlyxekhach
         }*/
         private void btnChangeDataAcc_Click(object sender, EventArgs e)
         {
-    
-        
+            if (myTextBox1.ivalidation.valid(myTextBox1.Text))
+            {
+                textBox1.Text = "bạn đã nhập đúng định dạng";
+            }
+            else
+            {
+                textBox1.Text = "sai định dạng";
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
