@@ -12,6 +12,19 @@ namespace quanlyxekhach.AbstractModel
 {
     class SqlFactory : AbstractDbFactory
     {
+        private SqlFactory()
+        {
+
+        }
+        private static SqlFactory Instance;
+        public static SqlFactory GetInstance()
+        {
+            if(Instance == null)
+            {
+                Instance = new SqlFactory();
+            }
+            return Instance;
+        }
         public override DbConnection CreateConnection()
         {
             var conStr = ConfigurationManager.ConnectionStrings["AbstractFactoryConnect"].ConnectionString;
