@@ -66,6 +66,9 @@
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
     <Compile Include="StrateryPattern\Ivalidation.cs" />
+    <Compile Include="StrateryPattern\MyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="AcccountManagement.resx">
       <DependentUpon>AcccountManagement.cs</DependentUpon>
     </EmbeddedResource>
