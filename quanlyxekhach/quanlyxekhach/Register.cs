@@ -26,7 +26,7 @@ namespace quanlyxekhach
         }
         public void CreateAccountDao()
         {
-            AbstractDbFactory sql = new SqlFactory();
+            AbstractDbFactory sql = SqlFactory.GetInstance();
             dao = new AccountDao(sql);
         }
         private void btnConfirm_Click(object sender, EventArgs e)
