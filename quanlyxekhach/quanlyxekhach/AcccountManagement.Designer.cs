@@ -34,8 +34,6 @@ namespace quanlyxekhach
             this.label6 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.myTextBox1 = new quanlyxekhach.StrateryPattern.MyTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.txtMaNV = new System.Windows.Forms.Label();
@@ -91,8 +89,6 @@ namespace quanlyxekhach
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.myTextBox1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btnCancel);
             this.panel1.Controls.Add(this.txtMaNV);
@@ -112,23 +108,6 @@ namespace quanlyxekhach
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(327, 344);
             this.panel1.TabIndex = 26;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(21, 249);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(68, 20);
-            this.textBox1.TabIndex = 17;
-            // 
-            // myTextBox1
-            // 
-            this.myTextBox1.Location = new System.Drawing.Point(21, 0);
-            this.myTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.myTextBox1.Name = "myTextBox1";
-            this.myTextBox1.Size = new System.Drawing.Size(143, 20);
-            this.myTextBox1.TabIndex = 16;
-            this.myTextBox1.validType = quanlyxekhach.StrateryPattern.ValidationType.STRING;
             // 
             // button1
             // 
@@ -303,8 +282,6 @@ namespace quanlyxekhach
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private StrateryPattern.MyTextBox myTextBox1;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
