@@ -10,31 +10,35 @@ namespace quanlyxekhach.StrateryPattern
 {
     public enum ValidationType
     {
-        INTERGER, 
-        FLOAT, 
+        INTERGER,
+        FLOAT,
         STRING,
         EMAIL,
         DATE
     }
-    interface Ivalidation
+
+    internal interface Ivalidation
     {
         bool valid(string text);
     }
-    class IntValid: Ivalidation
+
+    internal class IntValid : Ivalidation
     {
         public bool valid(string text)
         {
             return int.TryParse(text, out int a);
         }
     }
-    class FloatValid : Ivalidation
+
+    internal class FloatValid : Ivalidation
     {
         public bool valid(string text)
         {
             return float.TryParse(text, out float a);
         }
     }
-    class EmailValid : Ivalidation
+
+    internal class EmailValid : Ivalidation
     {
         public bool valid(string text)
         {
@@ -52,7 +56,8 @@ namespace quanlyxekhach.StrateryPattern
             }
         }
     }
-    class DatetimeValid : Ivalidation
+
+    internal class DatetimeValid : Ivalidation
     {
         public bool valid(string text)
         {
@@ -60,7 +65,7 @@ namespace quanlyxekhach.StrateryPattern
 
             bool chValidity = DateTime.TryParseExact(
             text,
-            "MM/dd/yyyy",
+            "dd/MM/yyyy",
             CultureInfo.InvariantCulture,
             DateTimeStyles.None,
             out d);

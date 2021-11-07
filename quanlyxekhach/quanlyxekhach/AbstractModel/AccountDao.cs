@@ -7,17 +7,20 @@ using System.Threading.Tasks;
 
 namespace quanlyxekhach.AbstractModel
 {
-    class AccountDao
+    internal class AccountDao
     {
         private AbstractDbFactory factory;
+
         public AccountDao(AbstractDbFactory factory)
         {
             this.factory = factory;
         }
+
         public bool Add(Account account)
         {
             var con = factory.CreateConnection();
             con.Open();
+
             var cmd = factory.CreateCommand("insert into TaiKhoan values (@MaNV, @TenNV,@ChucVu,@TenTK, @MatKhau)", con);
             var ManV = factory.SqlParameter("@MaNV", SqlDbType.NVarChar);
             var TenNV = factory.SqlParameter("@TenNV", SqlDbType.NVarChar);

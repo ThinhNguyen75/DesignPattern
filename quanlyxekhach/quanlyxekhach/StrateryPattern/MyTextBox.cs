@@ -7,10 +7,22 @@ using System.Windows.Forms;
 
 namespace quanlyxekhach.StrateryPattern
 {
-    class MyTextBox: TextBox
+    internal class MyTextBox : TextBox
     {
         public ValidationType validationType = ValidationType.INTERGER;
+
+        public ValidationType validType
+        {
+            get => validationType;
+            set
+            {
+                validationType = value;
+                ivalidation = CreateValidator();
+            }
+        }
+
         public Ivalidation ivalidation = new IntValid();
+
         public Ivalidation CreateValidator()
         {
             switch (validType)
@@ -26,19 +38,15 @@ namespace quanlyxekhach.StrateryPattern
 
                 case ValidationType.STRING:
                     return new StringValid();
+
                 default:
                     return new IntValid();
-
             }
         }
-        public ValidationType validType
+
+        public bool Validate()
         {
-            get => validationType;
-            set
-            {
-                validationType = value;
-                ivalidation = CreateValidator();
-            }
+            return ivalidation.valid(Text);
         }
     }
 }

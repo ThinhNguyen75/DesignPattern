@@ -10,21 +10,23 @@ using System.Threading.Tasks;
 
 namespace quanlyxekhach.AbstractModel
 {
-    class SqlFactory : AbstractDbFactory
+    public class SqlFactory : AbstractDbFactory
     {
-        private SqlFactory()
+        public SqlFactory()
         {
-
         }
+
         private static SqlFactory Instance;
+
         public static SqlFactory GetInstance()
         {
-            if(Instance == null)
+            if (Instance == null)
             {
                 Instance = new SqlFactory();
             }
             return Instance;
         }
+
         public override DbConnection CreateConnection()
         {
             var conStr = ConfigurationManager.ConnectionStrings["AbstractFactoryConnect"].ConnectionString;
@@ -40,6 +42,7 @@ namespace quanlyxekhach.AbstractModel
         {
             return new SqlConnection(cnString);
         }
+
         public override DbDataAdapter CreateDataAdapter(DbCommand selectCmd)
         {
             return new SqlDataAdapter((SqlCommand)selectCmd);
@@ -49,6 +52,5 @@ namespace quanlyxekhach.AbstractModel
         {
             return new SqlParameter(parameterName, (SqlDbType)dbType);
         }
-
     }
 }
