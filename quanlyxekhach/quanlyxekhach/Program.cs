@@ -16,7 +16,7 @@ namespace quanlyxekhach
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AccountManagement());
+            Application.Run(new Login());
         }
     }
 }

@@ -20,3 +20,6 @@ D:\DesignPattern\CuoiKi\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quan
 D:\DesignPattern\CuoiKi\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.csproj.CoreCompileInputs.cache
 D:\DesignPattern\CuoiKi\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.exe
 D:\DesignPattern\CuoiKi\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.pdb
+E:\filehoctap\laptrinh\MTK\ĐỒ ÁN CUỐI KÌ\đồ án hiện tại MTK\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.Login.resources
+E:\filehoctap\laptrinh\MTK\ĐỒ ÁN CUỐI KÌ\đồ án hiện tại MTK\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.ManageCustomer.resources
+E:\filehoctap\laptrinh\MTK\ĐỒ ÁN CUỐI KÌ\đồ án hiện tại MTK\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.ManageEmployee.resources

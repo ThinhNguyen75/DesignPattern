@@ -14,6 +14,27 @@ namespace quanlyxekhach.AbstractModel
         {
             this.factory = factory;
         }
+        public bool Login(string username, string password)
+        {
+            var con = factory.CreateConnection();
+            con.Open();
+            var cmd = factory.CreateCommand("select * from TaiKhoan where TenTK =@TenTK and MatKhau =@MatKhau", con);
+            var TenTK = factory.SqlParameter("@TenTK", SqlDbType.NVarChar);
+            var MatKhau = factory.SqlParameter("@MatKhau", SqlDbType.NVarChar);
+            TenTK.Value = username;
+            MatKhau.Value = password;
+            cmd.Parameters.Add(TenTK);
+            cmd.Parameters.Add(MatKhau);
+            var adapter = factory.CreateDataAdapter(cmd);
+            var tb = new DataTable();
+            adapter.Fill(tb);
+            if (tb.Rows.Count == 1)
+            {
+                return true;
+            }
+            else { return false; }
+
+        }
         public bool Add(Account account)
         {
             var con = factory.CreateConnection();
