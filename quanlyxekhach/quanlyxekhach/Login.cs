@@ -20,7 +20,7 @@ namespace quanlyxekhach
         {
             InitializeComponent();
             CreateAccountDao();
-            formController = FormController.getInstance();
+            formController = FormController.getInstance();// gọi simple factory ( ko tạo mới vì đã singleton)
         }
         public void CreateAccountDao()
         {
@@ -41,7 +41,7 @@ namespace quanlyxekhach
                 }
                 else if (txtUsername.Text.Contains("employee"))
                 {
-                    formController.FormRequest("EMPLOYEE", this);
+                    formController.FormRequest("EMPLOYEE", this);// sử dụng simple factory
                 }
                 else if (txtUsername.Text.Contains("seller"))
                 {

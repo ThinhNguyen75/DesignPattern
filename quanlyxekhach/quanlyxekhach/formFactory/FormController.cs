@@ -10,6 +10,7 @@ namespace quanlyxekhach.formFactory
     class FormController
     {
         private ChangeForm changeForm;
+        // singleton 
         private FormController()
         {
             changeForm = new ChangeForm();
@@ -24,6 +25,7 @@ namespace quanlyxekhach.formFactory
             }
             return Instance;
         }
+        // lấy thông tin để chuyển form 
         public void FormRequest(String request, Form formFrom)
         {
             changeForm.dispatch(request, formFrom);
