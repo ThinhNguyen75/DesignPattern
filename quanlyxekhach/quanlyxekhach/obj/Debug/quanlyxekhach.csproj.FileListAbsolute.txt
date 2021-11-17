@@ -34,3 +34,15 @@ C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\DesignPatt
 C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.Views.ManageEmployee.resources
 C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.ManageEmployee.resources
 E:\filehoctap\laptrinh\MTK\ĐỒ ÁN CUỐI KÌ\đồ án hiện tại MTK\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.ManageEmployee.resources
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.AccountManagement.resources
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.Properties.Resources.resources
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.Register.resources
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.ManageEmployee.resources
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.exe
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.pdb
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\bin\Debug\quanlyxekhach.exe.config
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\bin\Debug\quanlyxekhach.exe
+C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\bin\Debug\quanlyxekhach.pdb
