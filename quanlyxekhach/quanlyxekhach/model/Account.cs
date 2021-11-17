@@ -8,7 +8,6 @@ namespace quanlyxekhach.AbstractModel
 {
     class Account
     {
-        public int stt { get; set; }
         public string MaNV{get; set;}
         public string TenNv { get; set; }
         public string ChucVu { get; set; }

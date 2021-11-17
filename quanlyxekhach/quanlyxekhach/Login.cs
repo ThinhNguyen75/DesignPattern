@@ -30,12 +30,11 @@ namespace quanlyxekhach
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            txtErrorMess.Text = "";
-            if (string.IsNullOrEmpty(txtPassword.Text) || string.IsNullOrEmpty(txtUsername.Text))
+            if(txtUsername.Text == "" || txtPassword.Text == "")
             {
                 txtErrorMess.Text = "Vui lòng điền đầy đủ thông tin";
             }
-            else if(dao.Login(txtUsername.Text.Trim(), txtPassword.Text.Trim()))
+            if(dao.Login(txtUsername.Text.Trim(), txtPassword.Text.Trim()))
             {
                 if(txtUsername.Text.Contains("admin")){
                     formController.FormRequest("ADMIN", this);

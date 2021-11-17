@@ -13,7 +13,7 @@ namespace quanlyxekhach.formFactory
         {
 
         }
-        // factory
+
         public Form getForm(String nameForm)
         {
             if (nameForm == "ADMIN")
