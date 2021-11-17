@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -37,7 +38,9 @@ namespace quanlyxekhach
             account.TenTK = txtUsername.Text;
             account.ChucVu = txtPosition.Text;
             account.MatKhau = txtPassword.Text;
-            if (dao.Add(account))
+            var createAcc = dao.Add(account);
+
+            if (createAcc)
             {
                 MessageBox.Show("Đăng kí tài khoan thành công");
                 txtNameEmp.Text = "";

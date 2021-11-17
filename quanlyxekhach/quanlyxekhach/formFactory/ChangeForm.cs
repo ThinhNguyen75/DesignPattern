@@ -15,7 +15,7 @@ namespace quanlyxekhach.formFactory
         {
             formFactory = new FormFactory();
         }
-
+        // chuyển từ form này qua form khác
         public void dispatch(String request, Form formFrom)
         {
             formFrom.Hide();
