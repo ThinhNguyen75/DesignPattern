@@ -1,5 +1,5 @@
 ﻿
-namespace quanlyxekhach.Views
+namespace quanlyxekhach
 {
     partial class ManageEmployee
     {

@@ -1,16 +1,10 @@
 ﻿using quanlyxekhach.AbstractModel;
 using quanlyxekhach.Models;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace quanlyxekhach.Views
+namespace quanlyxekhach
 {
     public partial class ManageEmployee : Form
     {
