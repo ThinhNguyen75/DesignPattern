@@ -33,3 +33,4 @@ C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\DesignPatt
 C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.pdb
 C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.Views.ManageEmployee.resources
 C:\Users\ASUS\Desktop\hk-1-2021-2022\design-pattern\project\test\test\DesignPattern\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.ManageEmployee.resources
+E:\filehoctap\laptrinh\MTK\ĐỒ ÁN CUỐI KÌ\đồ án hiện tại MTK\quanlyxekhach\quanlyxekhach\obj\Debug\quanlyxekhach.ManageEmployee.resources
